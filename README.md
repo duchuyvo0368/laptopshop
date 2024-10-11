@@ -45,7 +45,3 @@ This project is a full-stack eCommerce website for selling electronic components
    ```bash
    git clone https://github.com/yourusername/ecommerce-electronic-components.git
    cd ecommerce-electronic-components
-
-
-
-
