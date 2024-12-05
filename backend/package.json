@@ -10,7 +10,7 @@
     "client": "npm run client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node seeder",
-    "data:destroy": "node backend/seeder -d",
+    "data:destroy": "node backend/seeder -d"
   },
   "author": "Brad Traversy",
   "license": "MIT",
