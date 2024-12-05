@@ -2,6 +2,7 @@ import path from 'path'
 import express from 'express'
 import dotenv from 'dotenv'
 import colors from 'colors'
+const cors = require('cors');
 import morgan from 'morgan'
 import { notFound, errorHandler } from './middleware/errorMiddleware.js'
 import connectDB from './config/db.js'
