@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'))
 }
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://your-production-url.com'], 
+  origin: ['http://localhost:3000', 'https://laptopshop-navy.vercel.app'], 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true 
 }));
